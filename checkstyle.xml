@@ -107,8 +107,7 @@
         <module name="ClassFanOutComplexity">
             <!-- Spring annotations do not increase complexity -->
             <property name="excludedPackages"
-                      value="org.springframework.beans.factory.annotation, org.springframework.stereotype, 
-                             org.springframework.context.annotation, org.junit.runner, org.springframework.*.test.context"/>
+                      value="org.springframework.beans.factory.annotation, org.springframework.stereotype, org.springframework.context.annotation, org.junit.runner, org.springframework.*.test.context"/>
         </module>
 
         <module name="CyclomaticComplexity"/>
